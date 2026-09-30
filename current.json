@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-09-30 13:59 UTC",
-  "updated_at": "2026-09-30T14:09:05+00:00",
+  "generated": "2026-09-30 14:09 UTC",
+  "updated_at": "2026-09-30T14:09:54+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -38,7 +38,7 @@
         },
         {
           "label": "CpuUtilization (24h)",
-          "usage": "avg 1.1% \u00b7 peak 3.7%",
+          "usage": "avg 1.1% \u00b7 peak 2.8%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -96,7 +96,7 @@
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 40.8% \u00b7 peak 110.7%",
+          "usage": "avg 40.9% \u00b7 peak 110.7%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -199,28 +199,28 @@
       "rows": [
         {
           "label": "Projects",
-          "usage": "20",
-          "pct": 10.0,
+          "usage": "21",
+          "pct": 10.5,
           "state": "ok",
           "detail": "limit 200"
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.85 GB (MTD 1.41)",
+          "usage": "1.80 GB (MTD 1.41)",
           "pct": 1.8,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "75,019",
-          "pct": 7.5,
+          "usage": "73,771",
+          "pct": 7.4,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "23.02 GB-hrs",
+          "usage": "23.00 GB-hrs",
           "pct": 6.4,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
@@ -234,7 +234,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "158,550",
+          "usage": "155,418",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
