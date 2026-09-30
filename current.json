@@ -1,0 +1,251 @@
+{
+  "schema": "fleet-public/v1",
+  "updated_at": "2026-09-30T14:08:02+00:00",
+  "privacy": {
+    "aggregate_only": true,
+    "identifiers": false,
+    "content": false,
+    "credentials": false
+  },
+  "sections": [
+    {
+      "id": "oracle",
+      "name": "Oracle Cloud",
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Compute instance",
+          "usage": "2 OCPU / 12 GB RAM",
+          "pct": 50.0,
+          "state": "ok",
+          "detail": "VM.Standard.A1.Flex \u00b7 RUNNING \u00b7 VMtx:UK-LONDON-1-AD-1"
+        },
+        {
+          "label": "A1 OCPU total",
+          "usage": "2 / 4 OCPU",
+          "pct": 50.0,
+          "state": "ok",
+          "detail": "Always Free allowance: 4 OCPU"
+        },
+        {
+          "label": "A1 RAM total",
+          "usage": "12 / 24 GB",
+          "pct": 50.0,
+          "state": "ok",
+          "detail": "Always Free allowance: 24 GB"
+        },
+        {
+          "label": "CpuUtilization (24h)",
+          "usage": "avg 1.1% \u00b7 peak 3.7%",
+          "pct": null,
+          "state": "ok",
+          "detail": "per instance fleet"
+        },
+        {
+          "label": "MemoryUtilization (24h)",
+          "usage": "avg 22.8% \u00b7 peak 24.1%",
+          "pct": null,
+          "state": "ok",
+          "detail": "per instance fleet"
+        },
+        {
+          "label": "Block storage (boot volumes)",
+          "usage": "50 / 200 GB",
+          "pct": 25.0,
+          "state": "ok",
+          "detail": "1 volume(s)"
+        },
+        {
+          "label": "Object storage buckets",
+          "usage": "0 bucket(s)",
+          "pct": null,
+          "state": "ok",
+          "detail": "Always Free: 20 GB"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Server",
+          "usage": "2 vCPU / 4 GB / 40 GB",
+          "pct": null,
+          "state": "ok",
+          "detail": "cx23 \u00b7 running \u00b7 hel1"
+        },
+        {
+          "label": "Server cost",
+          "usage": "\u20ac6.59/mo gross",
+          "pct": null,
+          "state": "ok",
+          "detail": "Hetzner has no free tier \u2014 paid"
+        },
+        {
+          "label": "Server traffic (month)",
+          "usage": "56.11 GB",
+          "pct": 0.3,
+          "state": "ok",
+          "detail": "20 TiB included \u00b7 in+out counted"
+        },
+        {
+          "label": "Server CPU (24h)",
+          "usage": "avg 40.8% \u00b7 peak 110.7%",
+          "pct": null,
+          "state": "ok",
+          "detail": "hypervisor-level metric"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "coolify",
+      "name": "Coolify",
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Coolify host",
+          "usage": "",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "Services running",
+          "usage": "4",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "Services stopped",
+          "usage": "2",
+          "pct": null,
+          "state": "ok"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Worker requests (7d)",
+          "usage": "28 req",
+          "pct": 0.0,
+          "state": "ok",
+          "detail": "free limit 100k/day = 700,000/7d"
+        },
+        {
+          "label": "Pages projects",
+          "usage": "1 project(s)",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "D1 database",
+          "usage": "0.51 GB \u00b7 0 tables",
+          "pct": 10.1,
+          "state": "ok"
+        },
+        {
+          "label": "KV namespaces",
+          "usage": "0",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "Queues",
+          "usage": "0",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "R2",
+          "usage": "not enabled",
+          "pct": null,
+          "state": "ok",
+          "detail": "(info)"
+        },
+        {
+          "label": "Zones",
+          "usage": "0",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "Workers",
+          "usage": "1",
+          "pct": null,
+          "state": "ok",
+          "group": "Resources"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Projects",
+          "usage": "20",
+          "pct": 10.0,
+          "state": "ok",
+          "detail": "limit 200"
+        },
+        {
+          "label": "Fast Data Transfer (30d)",
+          "usage": "1.85 GB (MTD 1.41)",
+          "pct": 1.8,
+          "state": "ok",
+          "detail": "Hobby: 100 GB/mo"
+        },
+        {
+          "label": "Function invocations (30d)",
+          "usage": "75,019",
+          "pct": 7.5,
+          "state": "ok",
+          "detail": "Hobby: 1,000,000/mo"
+        },
+        {
+          "label": "Provisioned memory (30d)",
+          "usage": "23.02 GB-hrs",
+          "pct": 6.4,
+          "state": "ok",
+          "detail": "Hobby: 360 GB-hrs/mo"
+        },
+        {
+          "label": "Fast Origin Transfer (30d)",
+          "usage": "0.46 GB",
+          "pct": 4.6,
+          "state": "ok",
+          "detail": "Hobby: 10 GB/mo"
+        },
+        {
+          "label": "Requests 30d (hits+misses)",
+          "usage": "158,550",
+          "pct": null,
+          "state": "ok",
+          "detail": "edge requests served"
+        },
+        {
+          "label": "Errored prod deploys (14d)",
+          "usage": "1",
+          "pct": null,
+          "state": "warn"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}
