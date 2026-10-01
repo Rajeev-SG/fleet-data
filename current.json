@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-10-01 10:42 UTC",
-  "updated_at": "2026-10-01T10:42:50+00:00",
+  "generated": "2026-10-01 18:00 UTC",
+  "updated_at": "2026-10-01T18:00:27+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -38,14 +38,14 @@
         },
         {
           "label": "CpuUtilization (24h)",
-          "usage": "avg 1.0% \u00b7 peak 2.3%",
+          "usage": "avg 0.9% \u00b7 peak 1.8%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
         },
         {
           "label": "MemoryUtilization (24h)",
-          "usage": "avg 21.7% \u00b7 peak 22.6%",
+          "usage": "avg 22.5% \u00b7 peak 23.0%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "0.30 GB",
+          "usage": "0.90 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 41.9% \u00b7 peak 81.3%",
+          "usage": "avg 40.8% \u00b7 peak 81.3%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -107,8 +107,8 @@
     {
       "id": "coolify",
       "name": "Coolify",
-      "ok": false,
-      "error": "unavailable",
+      "ok": true,
+      "error": "",
       "rows": [
         {
           "label": "Coolify host",
@@ -118,9 +118,15 @@
         },
         {
           "label": "Services running",
-          "usage": "0",
+          "usage": "4",
           "pct": null,
-          "state": "warn"
+          "state": "ok"
+        },
+        {
+          "label": "Services stopped",
+          "usage": "2",
+          "pct": null,
+          "state": "ok"
         }
       ],
       "notes": []
@@ -128,9 +134,61 @@
     {
       "id": "cloudflare",
       "name": "Cloudflare",
-      "ok": false,
-      "error": "unavailable",
-      "rows": [],
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Worker requests (7d)",
+          "usage": "27 req",
+          "pct": 0.0,
+          "state": "ok",
+          "detail": "free limit 100k/day = 700,000/7d"
+        },
+        {
+          "label": "Pages projects",
+          "usage": "1 project(s)",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "D1 database",
+          "usage": "0.51 GB \u00b7 0 tables",
+          "pct": 10.1,
+          "state": "ok"
+        },
+        {
+          "label": "KV namespaces",
+          "usage": "0",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "Queues",
+          "usage": "0",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "R2",
+          "usage": "not enabled",
+          "pct": null,
+          "state": "ok",
+          "detail": "(info)"
+        },
+        {
+          "label": "Zones",
+          "usage": "0",
+          "pct": null,
+          "state": "ok"
+        },
+        {
+          "label": "Workers",
+          "usage": "1",
+          "pct": null,
+          "state": "ok",
+          "group": "Resources"
+        }
+      ],
       "notes": []
     },
     {
@@ -148,22 +206,22 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.25 GB (MTD 0.01)",
+          "usage": "1.23 GB (MTD 0.01)",
           "pct": 1.2,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "72,622",
+          "usage": "72,902",
           "pct": 7.3,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "24.51 GB-hrs",
-          "pct": 6.8,
+          "usage": "24.72 GB-hrs",
+          "pct": 6.9,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
         },
@@ -176,7 +234,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "132,060",
+          "usage": "131,818",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
