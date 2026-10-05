@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-10-04 18:00 UTC",
-  "updated_at": "2026-10-04T18:00:22+00:00",
+  "generated": "2026-10-05 06:00 UTC",
+  "updated_at": "2026-10-05T06:00:21+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -45,7 +45,7 @@
         },
         {
           "label": "MemoryUtilization (24h)",
-          "usage": "avg 25.4% \u00b7 peak 26.0%",
+          "usage": "avg 25.8% \u00b7 peak 26.1%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "4.65 GB",
+          "usage": "5.38 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 38.7% \u00b7 peak 73.4%",
+          "usage": "avg 39.2% \u00b7 peak 83.0%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -212,22 +212,22 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.27 GB (MTD 0.19)",
+          "usage": "1.29 GB (MTD 0.23)",
           "pct": 1.3,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "76,260",
-          "pct": 7.6,
+          "usage": "77,196",
+          "pct": 7.7,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "24.59 GB-hrs",
-          "pct": 6.8,
+          "usage": "24.82 GB-hrs",
+          "pct": 6.9,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
         },
@@ -240,7 +240,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "133,636",
+          "usage": "134,289",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
