@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-10-20 06:00 UTC",
-  "updated_at": "2026-10-20T06:00:28+00:00",
+  "generated": "2026-10-22 11:11 UTC",
+  "updated_at": "2026-10-22T11:11:39+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -38,14 +38,14 @@
         },
         {
           "label": "CpuUtilization (24h)",
-          "usage": "avg 70.3% \u00b7 peak 99.9%",
+          "usage": "avg 1.2% \u00b7 peak 8.7%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
         },
         {
           "label": "MemoryUtilization (24h)",
-          "usage": "avg 28.5% \u00b7 peak 36.0%",
+          "usage": "avg 18.8% \u00b7 peak 19.6%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "14.80 GB",
+          "usage": "15.35 GB",
           "pct": 0.1,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 39.2% \u00b7 peak 80.0%",
+          "usage": "avg 38.9% \u00b7 peak 78.7%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -134,67 +134,9 @@
     {
       "id": "cloudflare",
       "name": "Cloudflare",
-      "ok": true,
-      "error": "",
-      "rows": [
-        {
-          "label": "Worker requests (7d)",
-          "usage": "25,967 req",
-          "pct": 3.7,
-          "state": "ok",
-          "detail": "free limit 100k/day = 700,000/7d"
-        },
-        {
-          "label": "Pages projects",
-          "usage": "1 project(s)",
-          "pct": null,
-          "state": "ok"
-        },
-        {
-          "label": "D1 database",
-          "usage": "0.00 GB \u00b7 0 tables",
-          "pct": 0.0,
-          "state": "ok"
-        },
-        {
-          "label": "D1 database",
-          "usage": "0.52 GB \u00b7 0 tables",
-          "pct": 10.5,
-          "state": "ok"
-        },
-        {
-          "label": "KV namespaces",
-          "usage": "1",
-          "pct": null,
-          "state": "ok"
-        },
-        {
-          "label": "Queues",
-          "usage": "0",
-          "pct": null,
-          "state": "ok"
-        },
-        {
-          "label": "R2",
-          "usage": "not enabled",
-          "pct": null,
-          "state": "ok",
-          "detail": "(info)"
-        },
-        {
-          "label": "Zones",
-          "usage": "0",
-          "pct": null,
-          "state": "ok"
-        },
-        {
-          "label": "Workers",
-          "usage": "3",
-          "pct": null,
-          "state": "ok",
-          "group": "Resources"
-        }
-      ],
+      "ok": false,
+      "error": "unavailable",
+      "rows": [],
       "notes": []
     },
     {
@@ -212,35 +154,35 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.14 GB (MTD 0.75)",
-          "pct": 1.1,
+          "usage": "1.22 GB (MTD 0.94)",
+          "pct": 1.2,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "73,777",
-          "pct": 7.4,
+          "usage": "67,910",
+          "pct": 6.8,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "21.62 GB-hrs",
-          "pct": 6.0,
+          "usage": "19.04 GB-hrs",
+          "pct": 5.3,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
         },
         {
           "label": "Fast Origin Transfer (30d)",
-          "usage": "0.43 GB",
-          "pct": 4.3,
+          "usage": "0.37 GB",
+          "pct": 3.7,
           "state": "ok",
           "detail": "Hobby: 10 GB/mo"
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "127,060",
+          "usage": "120,495",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
