@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-10-22 11:11 UTC",
-  "updated_at": "2026-10-22T11:11:39+00:00",
+  "generated": "2026-10-22 19:13 UTC",
+  "updated_at": "2026-10-22T19:13:42+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -38,14 +38,14 @@
         },
         {
           "label": "CpuUtilization (24h)",
-          "usage": "avg 1.2% \u00b7 peak 8.7%",
+          "usage": "avg 0.9% \u00b7 peak 2.2%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
         },
         {
           "label": "MemoryUtilization (24h)",
-          "usage": "avg 18.8% \u00b7 peak 19.6%",
+          "usage": "avg 19.5% \u00b7 peak 20.0%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "15.35 GB",
+          "usage": "15.39 GB",
           "pct": 0.1,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 38.9% \u00b7 peak 78.7%",
+          "usage": "avg 36.3% \u00b7 peak 78.7%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -154,21 +154,21 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.22 GB (MTD 0.94)",
+          "usage": "1.24 GB (MTD 0.97)",
           "pct": 1.2,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "67,910",
+          "usage": "67,917",
           "pct": 6.8,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "19.04 GB-hrs",
+          "usage": "19.01 GB-hrs",
           "pct": 5.3,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
@@ -182,7 +182,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "120,495",
+          "usage": "121,341",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
