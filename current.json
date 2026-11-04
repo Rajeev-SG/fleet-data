@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-11-04 09:43 UTC",
-  "updated_at": "2026-11-04T09:43:47+00:00",
+  "generated": "2026-11-04 20:30 UTC",
+  "updated_at": "2026-11-04T20:30:16+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -39,14 +39,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "0.43 GB",
+          "usage": "0.47 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 41.0% \u00b7 peak 147.8%",
+          "usage": "avg 39.2% \u00b7 peak 104.2%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -104,35 +104,35 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.44 GB (MTD 0.17)",
+          "usage": "1.44 GB (MTD 0.19)",
           "pct": 1.4,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "62,960",
+          "usage": "62,514",
           "pct": 6.3,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "14.38 GB-hrs",
+          "usage": "14.27 GB-hrs",
           "pct": 4.0,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
         },
         {
           "label": "Fast Origin Transfer (30d)",
-          "usage": "0.28 GB",
-          "pct": 2.8,
+          "usage": "0.27 GB",
+          "pct": 2.7,
           "state": "ok",
           "detail": "Hobby: 10 GB/mo"
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "122,426",
+          "usage": "122,261",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
