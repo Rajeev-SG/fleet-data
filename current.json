@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-11-05 08:41 UTC",
-  "updated_at": "2026-11-05T08:41:05+00:00",
+  "generated": "2026-11-05 19:04 UTC",
+  "updated_at": "2026-11-05T19:04:12+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -38,14 +38,14 @@
         },
         {
           "label": "CpuUtilization (24h)",
-          "usage": "avg 0.7% \u00b7 peak 2.2%",
+          "usage": "avg 0.7% \u00b7 peak 2.3%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
         },
         {
           "label": "MemoryUtilization (24h)",
-          "usage": "avg 22.1% \u00b7 peak 22.6%",
+          "usage": "avg 22.6% \u00b7 peak 23.0%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "0.49 GB",
+          "usage": "0.51 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 38.5% \u00b7 peak 104.2%",
+          "usage": "avg 38.6% \u00b7 peak 84.2%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -142,9 +142,52 @@
     {
       "id": "vercel",
       "name": "Vercel",
-      "ok": false,
-      "error": "unavailable",
-      "rows": [],
+      "ok": true,
+      "error": "",
+      "rows": [
+        {
+          "label": "Projects",
+          "usage": "21",
+          "pct": 10.5,
+          "state": "ok",
+          "detail": "limit 200"
+        },
+        {
+          "label": "Fast Data Transfer (30d)",
+          "usage": "1.47 GB (MTD 0.26)",
+          "pct": 1.5,
+          "state": "ok",
+          "detail": "Hobby: 100 GB/mo"
+        },
+        {
+          "label": "Function invocations (30d)",
+          "usage": "62,775",
+          "pct": 6.3,
+          "state": "ok",
+          "detail": "Hobby: 1,000,000/mo"
+        },
+        {
+          "label": "Provisioned memory (30d)",
+          "usage": "14.44 GB-hrs",
+          "pct": 4.0,
+          "state": "ok",
+          "detail": "Hobby: 360 GB-hrs/mo"
+        },
+        {
+          "label": "Fast Origin Transfer (30d)",
+          "usage": "0.27 GB",
+          "pct": 2.7,
+          "state": "ok",
+          "detail": "Hobby: 10 GB/mo"
+        },
+        {
+          "label": "Requests 30d (hits+misses)",
+          "usage": "123,100",
+          "pct": null,
+          "state": "ok",
+          "detail": "edge requests served"
+        }
+      ],
       "notes": []
     }
   ]
