@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-11-08 20:25 UTC",
-  "updated_at": "2026-11-08T20:25:47+00:00",
+  "generated": "2026-11-09 10:35 UTC",
+  "updated_at": "2026-11-09T10:35:45+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -12,59 +12,9 @@
     {
       "id": "oracle",
       "name": "Oracle Cloud",
-      "ok": true,
-      "error": "",
-      "rows": [
-        {
-          "label": "Compute instance",
-          "usage": "2 OCPU / 12 GB RAM",
-          "pct": 50.0,
-          "state": "ok",
-          "detail": "VM.Standard.A1.Flex \u00b7 RUNNING \u00b7 VMtx:UK-LONDON-1-AD-1"
-        },
-        {
-          "label": "A1 OCPU total",
-          "usage": "2 / 4 OCPU",
-          "pct": 50.0,
-          "state": "ok",
-          "detail": "Always Free allowance: 4 OCPU"
-        },
-        {
-          "label": "A1 RAM total",
-          "usage": "12 / 24 GB",
-          "pct": 50.0,
-          "state": "ok",
-          "detail": "Always Free allowance: 24 GB"
-        },
-        {
-          "label": "CpuUtilization (24h)",
-          "usage": "avg 1.9% \u00b7 peak 2.4%",
-          "pct": null,
-          "state": "ok",
-          "detail": "per instance fleet"
-        },
-        {
-          "label": "MemoryUtilization (24h)",
-          "usage": "avg 27.5% \u00b7 peak 28.6%",
-          "pct": null,
-          "state": "ok",
-          "detail": "per instance fleet"
-        },
-        {
-          "label": "Block storage (boot volumes)",
-          "usage": "50 / 200 GB",
-          "pct": 25.0,
-          "state": "ok",
-          "detail": "1 volume(s)"
-        },
-        {
-          "label": "Object storage buckets",
-          "usage": "0 bucket(s)",
-          "pct": null,
-          "state": "ok",
-          "detail": "Always Free: 20 GB"
-        }
-      ],
+      "ok": false,
+      "error": "unavailable",
+      "rows": [],
       "notes": []
     },
     {
@@ -89,14 +39,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "0.81 GB",
+          "usage": "0.87 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 38.4% \u00b7 peak 111.1%",
+          "usage": "avg 37.7% \u00b7 peak 126.4%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -154,21 +104,21 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.55 GB (MTD 0.41)",
-          "pct": 1.5,
+          "usage": "1.56 GB (MTD 0.44)",
+          "pct": 1.6,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "63,724",
+          "usage": "63,731",
           "pct": 6.4,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "14.88 GB-hrs",
+          "usage": "14.90 GB-hrs",
           "pct": 4.1,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
@@ -182,7 +132,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "125,722",
+          "usage": "126,160",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
