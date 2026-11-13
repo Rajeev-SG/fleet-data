@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-11-13 07:00 UTC",
-  "updated_at": "2026-11-13T07:00:16+00:00",
+  "generated": "2026-11-13 19:00 UTC",
+  "updated_at": "2026-11-13T19:00:14+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -38,7 +38,7 @@
         },
         {
           "label": "CpuUtilization (24h)",
-          "usage": "avg 2.0% \u00b7 peak 3.5%",
+          "usage": "avg 2.0% \u00b7 peak 3.6%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "1.56 GB",
+          "usage": "1.67 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 38.8% \u00b7 peak 82.3%",
+          "usage": "avg 39.5% \u00b7 peak 82.3%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -154,21 +154,21 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "1.60 GB (MTD 0.60)",
+          "usage": "1.60 GB (MTD 0.62)",
           "pct": 1.6,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "61,598",
+          "usage": "61,641",
           "pct": 6.2,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "14.15 GB-hrs",
+          "usage": "14.16 GB-hrs",
           "pct": 3.9,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
@@ -182,7 +182,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "124,422",
+          "usage": "124,462",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
