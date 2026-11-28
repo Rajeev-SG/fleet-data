@@ -1,7 +1,7 @@
 {
   "schema": "fleet-public/v1",
-  "generated": "2026-11-27 19:00 UTC",
-  "updated_at": "2026-11-27T19:00:13+00:00",
+  "generated": "2026-11-28 07:00 UTC",
+  "updated_at": "2026-11-28T07:00:17+00:00",
   "privacy": {
     "aggregate_only": true,
     "identifiers": false,
@@ -45,7 +45,7 @@
         },
         {
           "label": "MemoryUtilization (24h)",
-          "usage": "avg 28.0% \u00b7 peak 28.5%",
+          "usage": "avg 27.9% \u00b7 peak 28.4%",
           "pct": null,
           "state": "ok",
           "detail": "per instance fleet"
@@ -89,14 +89,14 @@
         },
         {
           "label": "Server traffic (month)",
-          "usage": "6.81 GB",
+          "usage": "6.86 GB",
           "pct": 0.0,
           "state": "ok",
           "detail": "20 TiB included \u00b7 in+out counted"
         },
         {
           "label": "Server CPU (24h)",
-          "usage": "avg 25.8% \u00b7 peak 46.6%",
+          "usage": "avg 26.3% \u00b7 peak 117.7%",
           "pct": null,
           "state": "ok",
           "detail": "hypervisor-level metric"
@@ -154,21 +154,21 @@
         },
         {
           "label": "Fast Data Transfer (30d)",
-          "usage": "2.04 GB (MTD 1.87)",
-          "pct": 2.0,
+          "usage": "2.05 GB (MTD 1.89)",
+          "pct": 2.1,
           "state": "ok",
           "detail": "Hobby: 100 GB/mo"
         },
         {
           "label": "Function invocations (30d)",
-          "usage": "67,602",
-          "pct": 6.8,
+          "usage": "67,403",
+          "pct": 6.7,
           "state": "ok",
           "detail": "Hobby: 1,000,000/mo"
         },
         {
           "label": "Provisioned memory (30d)",
-          "usage": "12.91 GB-hrs",
+          "usage": "12.85 GB-hrs",
           "pct": 3.6,
           "state": "ok",
           "detail": "Hobby: 360 GB-hrs/mo"
@@ -182,7 +182,7 @@
         },
         {
           "label": "Requests 30d (hits+misses)",
-          "usage": "173,260",
+          "usage": "173,228",
           "pct": null,
           "state": "ok",
           "detail": "edge requests served"
